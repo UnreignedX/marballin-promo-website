@@ -12,5 +12,5 @@
 [redirects]
     [[redirects]]
         from = "/*"
-        to = "/index.html"
+        to = "marballin-promo-website/index.html"
         status = 200
