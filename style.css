@@ -134,6 +134,11 @@ section {
   font-size: 1.3rem;
   font-weight: 300;
 }
+
+.specs .s-c-header {
+  margin: 30px 0px 0px 0px;
+}
+
 .specs ul {
   font-size: 1.1rem;
   border-radius: 30px;
