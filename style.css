@@ -10,6 +10,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-size: 1.6rem;
   margin: 0;
   font-family: Verdana;
@@ -116,9 +117,13 @@ section {
   padding: 100px 200px;
   font-family: "Alexandria";
   font-size: 1.7rem;
-  font-weight: 900;
+  font-weight: 700;
   color: #ffffff;
   text-align: center;
+}
+
+.about-section {
+    padding: 100px 300px;
 }
 
 .section-content h1 {
@@ -181,7 +186,7 @@ section {
   justify-content: space-between;
   flex-direction: row;
   width: 100%;
-  height: auto;
+  margin: 90px 0;
 }
 
 .gallery-images img {
@@ -191,13 +196,18 @@ section {
 }
 
 .gallery-images img {
+  outline: 5px solid white;
   transition: all 0.3s ease;
 }
 
 .gallery-images img:hover {
   z-index: 5;
-  transform: scale(1.55) translateY(40px);
+  transform: scale(1.75) translateY(40px);
   box-shadow: 2px 10px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.section-content .about-section {
+  padding: 0px 100px;
 }
 
 .gallery-images img:hover .s-c-header{
@@ -212,7 +222,7 @@ section {
 
 .about-specs div {
   width:100vw;
-  padding: 100px 40px;
+  padding: 100px 20px;
 }
 
 nav {
