@@ -12,10 +12,9 @@
 body {
   font-size: 1.6rem;
   margin: 0;
-  font-family: "Alexandria";
+  font-family: Verdana;
   background-color: rgb(22, 22, 22);
   color: black;
-  font-family: Verdana;
 }
 
 .background {
@@ -24,7 +23,6 @@ body {
   background-size: cover;
   background-position: center;
   filter: blur(5px);
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -35,34 +33,31 @@ body {
 .content {
   display: flex;
   padding: 30px;
-  * {
-    font-family: "Alexandria";
-    /* border: 1px solid #000; */
-    color: white;
-  }
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: white;
+  font-family: "Alexandria";
+}
 
-  h1 {
-    padding: 0;
-    margin: 0;
-    text-transform: uppercase;
-    font-family: "Alexandria";
-    font-size: 4rem;
-    font-weight: 900;
-    color: white;
-  }
+.content h1 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
+  font-family: "Alexandria";
+}
 
-  p {
-    font-size: 1.2rem;
-    margin: 20px 0 100px 0;
-  }
+.content p {
+  font-size: 1.2rem;
+  margin: 20px 0 100px 0;
+}
 
-  img {
-    width: 300px;
-  }
+.content img {
+  width: 300px;
 }
 
 .container {
@@ -87,8 +82,6 @@ body {
   color: white;
 }
 
-/* About Section */
-
 .section-content {
   display: flex;
   flex-direction: column;
@@ -101,22 +94,22 @@ body {
   font-weight: 900;
   color: #ffffff;
   text-align: center;
+}
 
-  h1 {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 10px;
-    width: 40%;
-    border-radius: 20px;
-    font-weight: 900;
-    text-transform: uppercase;
-  }
+.section-content h1 {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  width: 40%;
+  border-radius: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
 
-  p {
-    width: clamp(60%, 70%, 100%);
-    font-size: 1.1rem;
-    font-weight: 400;
-  }
+.section-content p {
+  width: clamp(60%, 70%, 100%);
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 .gallery {
@@ -124,11 +117,11 @@ body {
 }
 
 .about-specs {
-  display: flex;;
+  display: flex;
   flex-direction: row;
 }
 
-.about-specs div{
+.about-specs div {
   padding: 100px 40px;
 }
 
@@ -143,11 +136,11 @@ nav {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   padding: 20px;
+}
 
-  img {
-    width: 64px;
-    margin-right: 20px;
-  }
+nav img {
+  width: 64px;
+  margin-right: 20px;
 }
 
 .footer {
@@ -162,8 +155,8 @@ nav {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   padding: 10px;
+}
 
-  img {
-    width: 64px;
-  }
+.footer img {
+  width: 64px;
 }
