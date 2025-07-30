@@ -1,8 +1,8 @@
 <?php
-$host = "sql300.infinityfree.com";
-$user = "if0_39585296";        // default for XAMPP/Laragon
-$pass = "mDWlRir5u3aw0";            // default is empty
-$db   = "if0_39585296_marballin";
+$host = "ep-tiny-voice-a1aen4ha-pooler.ap-southeast-1.aws.neon.tech";
+$user = "neondb_owner";        // default for XAMPP/Laragon
+$pass = "npg_2zIeO6iWCDEN";            // default is empty
+$db   = "marballin";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
