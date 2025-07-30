@@ -10,8 +10,10 @@
             <div class="brand-logo"><img src="../assets/marballin_b.png"><span>MARBALLIN</span></div>
             <div class="nav-contents">
                 <a href="index.html">Home</a>
-                <a href="">Demo</a>
-                <a href="login" id="account">Login / Sign-up</a>
+                <a href="#">Demo</a>
+                <div class="account-dropdown">
+                    <a href="#" id="account">Login / Sign-up</a>
+                </div>
             </div>
         </nav>
     </div>
